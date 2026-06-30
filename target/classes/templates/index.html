@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/generate.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <input
+            id="input-link"
+            type="text"
+            placeholder="Enter URL (e.g. https://www.google.com)"
+    >
+
+    <br><br>
+
+    <button class="accept-btn">Generate Short URL</button>
+
+    <br><br>
+
+    <input
+            id="output-link"
+            type="text"
+            placeholder="Short URL will appear here"
+            readonly
+    >
+
+    <br><br>
+
+    <button id="copy-btn">Copy</button>
+
+</div>
+
+</body>
+</html>
